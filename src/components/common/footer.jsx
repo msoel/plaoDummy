@@ -4,7 +4,7 @@ const Footer = () => {
     return ( 
         <div className="row text-muted justify-content-md-center"
             style={{ paddingTop: 70, fontSize:'12px' }}>
-            @prothom Alo. 
+            @prothom Alo. soel
         </div>
      );
 }
