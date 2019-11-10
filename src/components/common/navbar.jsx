@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         
-        <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-light-green border-bottom shadow-sm ">
-            <h5 className="my-0 mr-md-auto font-weight-normal">Prothom Alo</h5>
+        <div className="header">
+            <img src="https://paloimages.prothom-alo.com/contents/themes/public/style/images/Prothom-Alo.png" alt="prothom alo logo"/>
             <nav className="my-2 my-md-0 mr-md-3">                
                 <NavLink
                     to="/"
@@ -15,10 +15,10 @@ const Navbar = () => {
                     Home
                 </NavLink>
                 <NavLink
-                    to="/favourite"
+                    to="/sports"
                     className="p-2 text-dark"
                 >
-                    Favourite
+                    Sports
                 </NavLink>
             </nav>
         </div>
