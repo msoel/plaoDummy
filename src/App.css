@@ -399,6 +399,7 @@ i {
   height: 168px;
   /* background-image: url(https://paloimages.prothom-alo.com/contents/themes/public/style/images/default_thumbnail_800x450.png?asd=2); */
   background-size: cover;
+  overflow: hidden;
 }
 .thcolnav-row-col-2>div {
   margin-right: 10px;
