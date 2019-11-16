@@ -1,0 +1,14 @@
+{
+   "endPoint" : 
+   "https://cors-anywhere.herokuapp.com/https://prothomalo-web.qtstage.io/api/v1/stories?fields=id,headline,subheadline,slug,sections,tags,author-name,authors,hero-image-s3-key,hero-image-metadata,published-at,story-template",
+    "perPage" : "&per_page=6",
+    "imageHost" : "http://thumbor-stg.assettype.com/",
+    "fiftyFiftyRightListLimit" : "&limit=4",
+    "ListSingleListLimit" : "&limit=5",
+    "limitDefault" : 10,
+    "threeColumLocalNavListLimit": "&limit=6",
+    "moreBn": "আরও",
+    "moreEn": "More",
+    "searchBn": "খুজুন",
+    "localNavHeadTextBn": "এলাকার সংবাদ"
+}
