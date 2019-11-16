@@ -215,6 +215,7 @@ i {
 }
 .flex-list .div-imgs .imageDisplay{
   width: var(--desktop-list-image-size);
+  height: 146px;
 }
 @media only screen and (max-width: 1024px) {
   .flex-list{
@@ -257,6 +258,7 @@ i {
   }
   .flex-list .div-imgs .imageDisplay{
     width: var(--mobile-list-image-size);
+    height: 80px;
   }
 }
 
@@ -496,6 +498,11 @@ i {
 .black-videp-widget-whole .blackList >div p{
   color: #ffffff;
 }
+.blackList .pic-div.item1 {
+  max-width: 283px;
+  max-height: 168px;
+  overflow: hidden;
+}
 
 /* play button */
 .black-videp-widget .itemImage .button.play {
@@ -535,6 +542,22 @@ i {
   border-radius: 50%;
   padding: 13px;
   overflow: hidden;
+}
+@media only screen and (max-width: 500px) {
+  .blackList .pic-div.item1 {
+    max-height: 124px;
+  }
+  .black-videp-widget .itemImage .button.play {
+    width: 18px;
+    height: 18px;
+    border-width: 9px 0px 9px 18px;
+    border-color: #fff #fff #fff #202020;
+    position: absolute;
+}
+.black-videp-widget .itemImage .playBtn {
+  margin: 195px 10px;
+}
+      
 }
 @media only screen and (max-width: 1024px) {
   .black-videp-widget {
@@ -607,4 +630,17 @@ i {
   .tech-widget > div:nth-child(2) { grid-area: 2 / 1 / 2 / 4 ; }  
   .tech-widget > div:nth-child(3) { grid-area: 2 / 4 / 2 / 7 ; }
   .tech-widget > div:nth-child(4) { grid-area: 3 / span 6 ; }
+}
+/* img {
+  position: relative;
+} */
+img:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 10px;
+  height: 41px;
+  width: 95px;
+  background-color: white;
+  background-image:url('https://paloimages.prothom-alo.com/contents/themes/public/style/images/default_thumbnail_800x450.png?asd=2');
 }
