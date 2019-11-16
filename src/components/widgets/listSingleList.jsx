@@ -12,7 +12,7 @@ class ListSingleList extends Component {
         if (!news) return false;
         
         const firstnews = news[0];
-        const otherNews = news.slice(1);
+        const otherNews = news.slice(1,4);
 
         return ( 
             <React.Fragment>

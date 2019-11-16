@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SingleNews from './common/singleNews';
 import config from "../../config";
+import SectionHeader from './common/sectionHeader';
 
 
 class BlackVideo extends Component {
@@ -15,6 +16,11 @@ class BlackVideo extends Component {
        
         
         return ( 
+            <React.Fragment>
+                <SectionHeader
+                    headerText={firstnews['sections'][0]['name']}
+                    headerLink={firstnews['sections'][0]['section-url']} />
+            
             <div className="black-videp-widget-whole">
                 <div className="black-videp-widget">
                     <div className="itemText">
@@ -35,7 +41,7 @@ class BlackVideo extends Component {
                             <div  key={"ply_"+eachnews.id} className="playBtn">
                                 <button key={"ptn_"+eachnews.id} className="button play" />
                             </div>
-                    
+
                             <SingleNews
                             content={eachnews}
                             parentClassName=""
@@ -47,7 +53,8 @@ class BlackVideo extends Component {
                     )}
                 </div>
                 
-            </div>
+                </div>
+                </React.Fragment>
          );
     }
 }
