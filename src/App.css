@@ -1,15 +1,14 @@
 :root {
   --max-container-width-1264: 1256px;
   --max-container-width-1024: 1020px;
-  --section-header-margin: 10px 0;
-  --section-header-font-size: 20px;
+  /* --section-header-margin: 10px 0; */
+  /* --section-header-font-size: 20px; */
   --desktop-list-image-size: 220px;
   --tab-list-image-size: 190px;
   --mobile-list-image-size: 120px;
   --bar-side-color:#e7e4e4;
   --widget-bottom-color:#e7e4e4;
   --nav-botom-color:#6b6b6b;
-  --arrow-right-color:#c00000;
   --local-nav-search-color: #0099ff;
 
 }
@@ -99,31 +98,7 @@ nav a{
   text-decoration: none;
   padding: 20px;
 }
-i {
-  border: solid var(--arrow-right-color);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
 
-.right_arrow {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-/* section header */
-.section-header  {
-  color: white;
-  margin: var(--section-header-margin);
-  width: 100%;
-  font-family: ShurjoWeb;
-  font-size: var(--section-header-font-size);
-  font-weight: bold;
-  font-style: normal;
-  line-height: 1.4;
-  letter-spacing: normal;
-  text-align: left; 
-}
 /* widget 50-50-right-list */
 .widget-f-flist{
   display: flex;

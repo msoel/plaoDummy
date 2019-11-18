@@ -1,0 +1,30 @@
+:root {
+    --section-header-margin: 10px 0;
+    --section-header-font-size: 20px;    
+    --arrow-right-color:#c00000;
+}
+/* section header */
+.section_header  {
+    color: white;
+    margin: var(--section-header-margin);
+    width: 100%;
+    font-family: ShurjoWeb;
+    font-size: var(--section-header-font-size);
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left; 
+  }
+  
+i{
+    border: solid var(--arrow-right-color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right_arrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }

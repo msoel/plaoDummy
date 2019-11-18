@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SingleNews from './common/singleNews';
 import ListNews from './common/listNewsWithImage';
 import SectionHeader from './common/sectionHeader';
+import styles from '../../style/listSingleList.module.css';
 
 
 class ListSingleList extends Component {

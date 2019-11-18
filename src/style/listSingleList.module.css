@@ -1,0 +1,21 @@
+
+
+/* list-single-List-widget css */
+.listsingleListwidget .rowSecond{
+    margin: 10px;
+    /* padding-right: 10px; */
+  }
+  .listsingleListwidget .rowThird{
+    border-left: 1px solid var(--bar-side-color);;
+    margin: 10px 0 10px 0px !important;
+    padding-left: 10px;
+  }
+  .listsingleListwidget .pic-div img{
+    width: 100%;
+  }
+  .listsingleListwidget .pic-div {
+    max-height: 350px;
+    overflow: hidden;
+    text-align: center;
+  }
+  

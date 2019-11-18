@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import styles from '../../../style/header.module.css';
 
 class SectionHeader extends Component {
 
@@ -8,9 +8,9 @@ class SectionHeader extends Component {
         const { headerText, headerLink } = this.props;
 
         return (
-            <div className="section-header">
+            <div className={styles.section_header}>
                 <NavLink to={"/"+headerLink} >{headerText}</NavLink>
-                <i className="arrow right_arrow"></i>
+                <i className={styles.arrow + ' ' + styles.right_arrow}></i>
             </div>
           );
     }
